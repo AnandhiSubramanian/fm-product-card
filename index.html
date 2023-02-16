@@ -43,6 +43,7 @@
         border-radius: 10px;
         overflow: hidden;
         margin: auto;
+        margin-top: 8%;
       }
       .product-img {
         width: 50%;
@@ -139,15 +140,10 @@
   <body>
     <div class="catalog">
       <div class="product-img">
-        <!-- <img src="images\image-product-desktop.jpg"
-         alt="perfume" 
-         srcset="images\image-product-mobile.jpg 493w, images\image-product-desktop.jpg 230w"
-         sizes="(max-width:575px) 493px, 230px"/> -->
-
          <picture>
-  <source srcset="images\image-product-mobile.jpg" media="(max-width: 575px)">
-  <img srcset="images\image-product-desktop.jpg" alt="perfume">
-</picture>
+          <source srcset="images\image-product-mobile.jpg" media="(max-width: 575px)">
+          <img srcset="images\image-product-desktop.jpg" alt="perfume">
+        </picture>
       </div>
       <div class="product-desc">
         <h6>Perfume</h6>
